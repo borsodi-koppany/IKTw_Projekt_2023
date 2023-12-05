@@ -38,9 +38,11 @@ body {
 }
 
 #elete{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 100px;
+    height: 100%;
+    margin-bottom: 300px;
 }
 
 #kep1 {
@@ -50,8 +52,35 @@ body {
     border: 1px solid black;
 }
 
-.kep .szoveg {
+.kep{
     float: left;
+    margin: 0;
+    width: 30%;
+    height: 370px;
+    margin-bottom: 0;
+}
+
+#eleteszoveg{
+    float: right;
+    width: 70%;
+}
+
+
+.hh{
+    width: 60%;
+    margin: auto;
+}
+
+.kepnezegeto{
+    height: 600px;
+    width: 60%;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+#karrier{
+    width: 60%;
+    margin: auto;
 }
 
 
