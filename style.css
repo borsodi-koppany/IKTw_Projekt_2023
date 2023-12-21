@@ -113,7 +113,14 @@ body {
 }
 
 .kepnezegeto-kep{
+  position: absolute;
+  width: 100%;
+  height: 100%;
   display: none;
+}
+
+.kepnezegeto-kep:first-child{
+  display: block;
 }
 
 @keyframes atmenet{
