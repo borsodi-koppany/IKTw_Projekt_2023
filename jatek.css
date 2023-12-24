@@ -8,6 +8,14 @@
     animation: hattermozgas 3000s infinite linear;
     -webkit-animation: hattermozgas 300s infinite linear;
   }
+
+  .elenfel{
+    position: absolute;
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+    background-image: url('Kepek/ellenfel_játékautó.png');
+}
   
   @keyframes hattermozgas{
     from{
