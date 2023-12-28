@@ -1,7 +1,8 @@
 body {
   background-color: #041c11;
-  font-family: sans-serif;
+  font-family: 'Roboto';
   color: white;
+  text-align: justify;
 }
 
 .navbar {
@@ -72,10 +73,12 @@ body {
 }
 
 .kepnezegeto {
-  height: 587px;
+  height: 650px;
   width: 887px;
   margin: auto;
   z-index: 1;
+  background-color: black;
+  border-radius: 20px;
 }
 
 #karrier {
@@ -121,10 +124,6 @@ body {
   display: block;
 }
 
-@keyframes atmenet{
-  form {opacity: 0.4;}  
-  to {opacity: 1;}
-}
 
 .autoi{
   z-index: 1;
@@ -142,3 +141,16 @@ body {
 .kepnezegeto-kep img{
   border-radius: 20px;
 }
+
+.felkover {
+  font-weight: bold;
+}
+
+.kozepre {
+  text-align: center;
+}
+
+.elete-content{
+  margin-bottom: 130px;
+}
+
