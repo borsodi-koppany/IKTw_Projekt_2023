@@ -1,5 +1,5 @@
 body {
-  background-color: #041c11;
+  background-color: #083f26;
   font-family: 'Roboto';
   color: white;
   text-align: justify;
@@ -216,11 +216,3 @@ body {
   from{top: 0;}
   to{top: 600px}
 }
-
-
-
-/* .opponent {
-  background-color: red;
-  width: 194px;
-  height: 100px;
-} */
