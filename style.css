@@ -216,3 +216,8 @@ body {
   from{top: 0;}
   to{top: 600px}
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('animationiteration', function(){
         let rndEllenfelPoz = Math.floor(Math.random()*3) *200;
         ellenfel.style.left = rndEllenfelPoz + 'px';
-        pont+=1;
+        pont+=0.5;
         pontKiiras.innerHTML = "Pont: " + pont;
         if(pont > rekord) {
             rekord = pont;
