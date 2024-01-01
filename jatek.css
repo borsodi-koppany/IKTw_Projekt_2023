@@ -1,23 +1,4 @@
-#desert{
-    position: absolute;
-    bottom: 0px;
-    background-image: url('Kepek/ÚT.png');
-    background-repeat: repeat-x;
-    width: 100%;
-    height: 80%;
-    animation: hattermozgas 3000s infinite linear;
-    -webkit-animation: hattermozgas 300s infinite linear;
-  }
-
-  .elenfel{
-    position: absolute;
-    bottom: 0px;
-    width: 60px;
-    height: 60px;
-    background-image: url('Kepek/ellenfel_játékautó.png');
-}
-  
-  @keyframes hattermozgas{
+@keyframes hattermozgas{
     from{
         background-position: 70000%;
     }
