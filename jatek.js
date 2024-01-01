@@ -10,9 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     rekordKiiras.innerHTML = 'Rekord: ' + rekord
     console.log(jatekosPozicio)
 
-    // ut.style.animation = 'utMozgatas';
-    // ellenfel.style.animation = 'ellenfelMozgatas';
-
     
     function JatekosMozgatas(event){
         if(event.keyCode == 37){ //bal
